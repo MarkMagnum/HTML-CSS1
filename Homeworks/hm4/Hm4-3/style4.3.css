@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+nav {
+    height: 9vh;
+    background: #D9D9D9;
+}
+main{
+    height: 75vh;
+    display: flex;
+}
+main section{
+    width: 60vw;
+    background: #A4A4A4;
+}
+.content__top{
+    width: 40vw;
+    height: 40vh;
+    background: #7F7A7A;
+}
+.content__bottom{
+    width: 40vw;
+    height: 35vh;
+    background: #615050;}
+footer{
+    height: 20vh;
+}
+.footer__top{
+    height: 9vh;
+    background: #D9D9D9;
+}
+.footer__bottom{
+    height:11vh;
+    background: #AFA9A9;
+}
