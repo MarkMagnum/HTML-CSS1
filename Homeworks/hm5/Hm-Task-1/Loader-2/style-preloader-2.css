@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    height: 100%;
+}
 
 .preloader {
     display: flex;
@@ -44,12 +47,12 @@
 
 @keyframes preloader {
     0% {
-        transform: rotate(-20deg);
+        transform: rotate(-20deg) translate(-20%);
         opacity: 0.7;
         border-color: #322a2a;
     }
     100% {
-        transform: rotate(20deg);
+        transform: rotate(20deg) translate(20%);
         opacity: 1;
         border-color: #ffffff;
     }
